@@ -479,7 +479,7 @@ do
     LDFLAGS="-L${BUILD_PREFIX_PATH}/lib -L${NDK_PATH}${TOOLCHAIN}/sysroot/usr/lib/${NDK_ABI}/${API} -Wl, --no-undefined" \
     AR=${NDK_PATH}${TOOLCHAIN}/bin/llvm-ar \
     CC=${NDK_PATH}${TOOLCHAIN}/bin/${i}${API}-clang \
-    AS=${NDK_PATH}${CC} \
+    AS=${CC} \
     CXX=${NDK_PATH}${TOOLCHAIN}/bin/${i}${API}-clang++ \
     LD=${NDK_PATH}${TOOLCHAIN}/bin/ld \
     RANLIB=${NDK_PATH}${TOOLCHAIN}/bin/llvm-ranlib \
