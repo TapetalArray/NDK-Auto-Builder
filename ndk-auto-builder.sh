@@ -633,7 +633,7 @@ NDK_PATH=""
 # Build prefix
 BUILD_PREFIX=""
 
-# Architecture
+# Architecture(arg: aarch64, arm, i686, x86_64 or all)
 ARCH=""
 
 # Pkg config library path
